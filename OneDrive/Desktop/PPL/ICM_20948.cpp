@@ -90,7 +90,7 @@ void setup() {
 #endif
 
   //myICM.enableDebugging(); // Uncomment this line to enable helpful debug messages on Serial
-
+  //
   bool initialized = false;
   while (!initialized) {
 #ifdef USE_SPI
